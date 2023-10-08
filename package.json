@@ -1,5 +1,5 @@
 {
-  "name": "eslint-define-config",
+  "name": "@antfu/eslint-define-config",
   "version": "1.23.0",
   "description": "Provide a defineConfig function for .eslintrc.js files",
   "scripts": {
