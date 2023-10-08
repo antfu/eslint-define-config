@@ -1,6 +1,6 @@
 {
   "name": "@antfu/eslint-define-config",
-  "version": "1.23.0-0",
+  "version": "1.23.0-1",
   "description": "Provide a defineConfig function for .eslintrc.js files",
   "scripts": {
     "clean": "rimraf dist",
@@ -60,6 +60,7 @@
   "bugs": "https://github.com/Shinigami92/eslint-define-config/issues",
   "license": "MIT",
   "files": [
+    "dist",
     "src",
     "tsconfig.json"
   ],
