@@ -250,7 +250,7 @@ export interface ParserOptions extends Partial<Record<string, unknown>> {
    * @see [Working with Custom Parsers](https://eslint.org/docs/developer-guide/working-with-custom-parsers)
    * @see [Specifying Parser](https://eslint.org/docs/user-guide/configuring/plugins#specifying-parser)
    */
-  parser?: Parser;
+  parser?: Parser | Record<string, string | Parser>;
 
   /**
    * This option allows you to provide a path to your project's `tsconfig.json`.
